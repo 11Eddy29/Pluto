@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Method in object</title>
+</head>
+
+<body>
+    <script>
+        let student = {
+            name: "John",
+            age: 21,
+            course: "B.Tech",
+            details: function () {
+                return (this.name + "<br>" + this.age + "<br>" + this.course + "<br>")
+            }
+        };
+        // let a = student.details();
+        // let b = student.course();
+        // document.write(a);
+        // document.write(b);
+        document.write(student.details());
+        document.write(student.course);
+    </script>
+</body>
+
+</html>

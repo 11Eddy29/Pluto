@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested_object</title>
+</head>
+
+<body>
+    <script>
+        let student = {
+            name: "John",
+            age: 21,
+            course: "B.Tech",
+            marks: {   // nested object(with:)
+                maths: 90,
+                physics: 85,
+            }
+        }
+        console.log("The marks in maths : "+ student.marks.maths);
+        console.log("The marks in physics : "+student.marks.physics);
+    </script>
+</body>
+
+</html>

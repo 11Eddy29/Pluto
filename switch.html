@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch statement</title>
+    <script>
+        let day = prompt("Enter any day number from 1 to 7");   // it will give string
+        day = Number(day);                                     // it will convert it into number
+        switch (day) {   // for execution,expression(day) strictly match with value(1/2..) written after each case 
+            case 1:
+                {
+                    console.log("Sunday")
+                    break;
+                }
+            case 2:
+                {
+                    console.log("Monday")
+                    break;
+                }
+            case 3:
+                {
+                    console.log("Tuesday")
+                    break;
+                }
+            case 4:
+                {
+                    console.log("Wednesday")
+                    break;
+                }
+            case 5:
+                {
+                    console.log("Thursday")
+                    break;
+                }
+            case 6:
+                {
+                    console.log("Friday")
+                    break;
+                }
+            case 7:
+                {
+                    console.log("Saturday")
+                    break;
+                }
+            default:
+                console.log("Enter a valid day number")
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
